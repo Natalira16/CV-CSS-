@@ -1,0 +1,167 @@
+body {
+   background-color: rgb(255, 255, 255);
+   color: rgb(6, 56, 97);
+
+   font-size: 16px;
+   font-weight: lighter;
+   font-family:'Courier New', Courier, monospace;
+}
+
+a {
+   color: black;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration:underline;
+}
+
+.photo {
+   width: 200px;
+   border-radius: 28px;
+   box-shadow: 12px 8px 16px rgb(0, 0, 0, 0 25);
+   margin-top: 10px;
+}
+
+.social {
+   margin-bottom: 20px;
+}
+
+.info {
+   display: flex;
+   margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+   .info {
+      text-align: center;
+      display: block;
+   }
+}
+
+.info-text {
+   margin-top: 30px;
+   margin-left: 50px;
+}
+
+.info-text {
+   margin-bottom: 10px;
+}
+
+.info p {
+   color: #2e3e70;
+   margin: 0%;
+   font-style: italic;
+   letter-spacing: 1px;
+}
+
+.container {
+   max-width: 750px;
+   margin: auto;
+   padding-top: 30px;
+}
+
+
+/*.social {
+   background: #ecf0fa;
+   padding: 15px;
+   margin: 20px;
+
+   border: 5px solid rgb(62, 84, 171);
+   border-style: double;
+}
+
+/*.box-model > div {
+   float: left;
+   background: #2e3e70;
+   height: 100px;
+   border: 3px solid #b1bcdd;
+   width: 25%;
+   box-sizing: border-box;
+} */
+
+/*.table td:nth-child(2 - номер столбца в таблице, к которым применяется действие),
+.table td:nth-child(3){
+   color: #86898f;
+}*/
+
+/*.table tr:nth-child(even - четные строки в таблице)
+.table tr:nth-child(odd - нечетные строки){
+   background: red;
+}*/
+
+
+.card {
+   padding: 15px 20px;
+   background: #f0f3ff;
+   margin-bottom: 20px;
+   border-radius: 12px;
+}
+
+/*.card section {
+   line-height-step: 50px;
+}*/
+
+.contact h2 {
+   text-align: center;
+}
+
+.form-group label {
+   display: block;
+   font-size: 16px;
+   color: #2e3e70;
+}
+
+.form-group input,
+.form-group textarea {
+   width: 100%;
+   box-sizing: border-box;
+   border: none;
+   background: transparent;
+   border-bottom: 1px solid #ccc;
+   color: #000;
+   padding: 15px 0 10px;
+   outline: none;
+   font-family: inherit;
+}
+
+.row {
+   display: flex;
+   margin-bottom: 20px;
+}
+
+.row > .form-group {
+   width: 50%;
+}
+
+.row > .form-group:first-child {
+   margin-right: 20px;
+}
+
+.btn {
+   background: #314a96;
+   padding: 15px 20px;
+   color: #ffffff;
+   border: none;
+   font-family: inherit;
+   cursor: pointer;
+}
+
+.btn:hover {
+   opacity: 0.9;
+}
+
+.possition {
+   margin-top: 50px;
+   padding: 20px;
+}
+
+.box {
+   position: fixed;
+   bottom: 100px;
+   right: 40px;
+   border-radius: 30%;
+   width: 50px;
+   height: 50px;
+   background: #2e3e70;
+}
